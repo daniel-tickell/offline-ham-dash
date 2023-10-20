@@ -1,0 +1,1409 @@
+[
+    {
+        "id": "67f4ff1d.729ad8",
+        "type": "tab",
+        "label": "Main Flow",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "23e9984a74f632a3",
+        "type": "group",
+        "z": "67f4ff1d.729ad8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c1d76ea2.67c3d",
+            "d758d97471adeb08",
+            "7637564d74924c36",
+            "e0ec963913cbf7a9",
+            "4dae4c9324645333",
+            "483b076041a928a7",
+            "bd980319c71b0ca8",
+            "1474c4587b3bd11d",
+            "f341f043d26515f0",
+            "0bb4ca04adf27f5c",
+            "2b89a071f4ee077a",
+            "a2f1b081c47dd961",
+            "79f044ed84443601",
+            "3146659d55f933e2",
+            "ded049747c20192e",
+            "3d6ccaf7e4049cf3",
+            "7ebebc9079038f68",
+            "de06c553507b60ef"
+        ],
+        "x": 94,
+        "y": 19,
+        "w": 1252,
+        "h": 442
+    },
+    {
+        "id": "4106c158edc3d314",
+        "type": "group",
+        "z": "67f4ff1d.729ad8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "957329c09d0bdc2b",
+            "a6bb85fc03739d71",
+            "ed53b212f0fd3b9c",
+            "92a3ac8946152f54",
+            "21dd788bfedad5b8",
+            "7bbd561b8a3c4ecb",
+            "50fe2eed633d6489",
+            "fd4e1fdaba212387",
+            "4279d3761cbf4100",
+            "b374f7324ffcf616",
+            "5a36f4c7fa934aaa",
+            "ca25a61777876b28",
+            "1c04bc0c22478b1a",
+            "c4ddcc22c2eacca3",
+            "3a48a6016169a83c",
+            "32908898b59bdedf",
+            "a1e2db89e883eb0c"
+        ],
+        "x": 94,
+        "y": 479,
+        "w": 1252,
+        "h": 402
+    },
+    {
+        "id": "4c6a86db264b7d6d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "cd81d08b.eebb3",
+        "type": "ui_group",
+        "z": "67f4ff1d.729ad8",
+        "name": "GPS Position",
+        "tab": "b34078e6.e60df8",
+        "order": 3,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b34078e6.e60df8",
+        "type": "ui_tab",
+        "z": "67f4ff1d.729ad8",
+        "name": "Home",
+        "icon": "dashboard"
+    },
+    {
+        "id": "58e78fcd6e0a2449",
+        "type": "ui_group",
+        "name": "GPS Time",
+        "tab": "b34078e6.e60df8",
+        "order": 1,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bd1740692d7f9cba",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "ham_calls",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "1afe7adfc5318f67",
+        "type": "ui_group",
+        "name": "Callsign Lookup",
+        "tab": "b34078e6.e60df8",
+        "order": 5,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3131c416ad9c0460",
+        "type": "ui_group",
+        "name": "System Time",
+        "tab": "b34078e6.e60df8",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5ab218459732af2c",
+        "type": "ui_spacer",
+        "z": "67f4ff1d.729ad8",
+        "name": "spacer",
+        "group": "cd81d08b.eebb3",
+        "order": 5,
+        "width": "16",
+        "height": "1"
+    },
+    {
+        "id": "5f76bceb7e66e23c",
+        "type": "ui_group",
+        "name": "Log Display",
+        "tab": "b34078e6.e60df8",
+        "order": 6,
+        "disp": true,
+        "width": "24",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "86c89de9a9404bfc",
+        "type": "ui_spacer",
+        "z": "67f4ff1d.729ad8",
+        "name": "spacer",
+        "group": "1afe7adfc5318f67",
+        "order": 10,
+        "width": "8",
+        "height": "7"
+    },
+    {
+        "id": "c1d76ea2.67c3d",
+        "type": "gpsd",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "gpsd Connector",
+        "hostname": "localhost",
+        "port": "2947",
+        "tpv": true,
+        "sky": true,
+        "info": false,
+        "device": true,
+        "gst": false,
+        "att": false,
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "7637564d74924c36",
+                "79f044ed84443601"
+            ]
+        ]
+    },
+    {
+        "id": "d758d97471adeb08",
+        "type": "change",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "Delete !reqd fields",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload.device",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.time",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.leapseconds",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ept",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.altHAE",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.altMSL",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.epx",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.epy",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.epv",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.track",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.magtrack",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.magvar",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.speed",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.climb",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.eps",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.epc",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefx",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefy",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefz",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefvx",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefvx",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefvy",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefvz",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefpAcc",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.ecefvAcc",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.eph",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.sep",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.mode",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.name",
+                "pt": "msg",
+                "to": "My Position",
+                "tot": "str"
+            },
+            {
+                "t": "delete",
+                "p": "payload.class",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.geoidSep",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.velN",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.velE",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.velD",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 200,
+        "wires": [
+            [
+                "e0ec963913cbf7a9",
+                "bd980319c71b0ca8",
+                "4dae4c9324645333",
+                "483b076041a928a7",
+                "3d6ccaf7e4049cf3",
+                "7ebebc9079038f68"
+            ]
+        ]
+    },
+    {
+        "id": "7637564d74924c36",
+        "type": "function",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "Pass only TPV and add Grid",
+        "func": "if(msg.payload.class == \"TPV\"){\n\n    var lat = 0.0;\n    var lon = 0.0;\n\n    lat = msg.payload.lat;\n    lon = msg.payload.lon;\n\n    msg.payload.grid = to_grid(lat, lon);\n    return msg;\n}\n\n\n\n\n\n\nfunction to_grid(dec_lat, dec_lon) {\n    var upper = 'ABCDEFGHIJKLMNOPQRSTUVWX';\n    var lower = 'abcdefghijklmnopqrstuvwx';\n\n    var adj_lat = dec_lat + 90.0\n    var adj_lon = dec_lon + 180.0\n\n    var firstLetter = Math.floor(adj_lat / 10);\n    var secondLetter = Math.floor(adj_lon / 20);\n\n    var grid_lat_sq = upper[firstLetter];\n    var grid_lon_sq = upper[secondLetter];\n\n    var grid_lat_field = Math.abs(Math.floor(adj_lat % 10));\n    var grid_lon_field = Math.abs(Math.floor(adj_lon / 2) % 10);\n\n    var adj_lat_remainder = (adj_lat - Math.floor(adj_lat)) * 60;\n    var adj_lon_remainder = ((adj_lon) - Math.floor(adj_lon / 2) * 2) * 60;\n\n    var grid_lat_subsq = lower[Math.floor(adj_lat_remainder / 2.5)];\n    var grid_lon_subsq = lower[Math.floor(adj_lon_remainder / 5)];\n\n    var grid = '' + grid_lon_sq + grid_lat_sq + grid_lon_field + grid_lat_field + grid_lon_subsq + grid_lat_subsq + '';\n\n    return grid;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 200,
+        "wires": [
+            [
+                "d758d97471adeb08"
+            ]
+        ]
+    },
+    {
+        "id": "bd980319c71b0ca8",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "cd81d08b.eebb3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Lat",
+        "format": "{{msg.payload.lat}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1250,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "4dae4c9324645333",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "cd81d08b.eebb3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Lon",
+        "format": "{{msg.payload.lon}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1250,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "483b076041a928a7",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "cd81d08b.eebb3",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Alt",
+        "format": "{{msg.payload.alt}}M",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1250,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "1474c4587b3bd11d",
+        "type": "function",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "function 2",
+        "func": "if(msg.payload.class == \"TPV\"){\n    msg.payload.date = msg.payload.time.split(\"T\")[0];\n    msg.payload.time = msg.payload.time.split(\"T\")[1].split(\"Z\")[0];\n    msg.payload.sysdate = msg.payload.myrawdate.split(\"T\")[0];\n    msg.payload.systime = msg.payload.myrawdate.split(\"T\")[1].split(\".000\")[0];\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 340,
+        "wires": [
+            [
+                "f341f043d26515f0",
+                "0bb4ca04adf27f5c",
+                "a2f1b081c47dd961",
+                "2b89a071f4ee077a"
+            ]
+        ]
+    },
+    {
+        "id": "f341f043d26515f0",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "58e78fcd6e0a2449",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "GPS Time",
+        "format": "{{msg.payload.time}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "0bb4ca04adf27f5c",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "58e78fcd6e0a2449",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "GPS Date",
+        "format": "{{msg.payload.date}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2b89a071f4ee077a",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "3131c416ad9c0460",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System Time",
+        "format": "{{msg.payload.systime}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 910,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "a2f1b081c47dd961",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "3131c416ad9c0460",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "System Date",
+        "format": "{{msg.payload.sysdate}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 910,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "79f044ed84443601",
+        "type": "simpletime",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "addRawDate",
+        "mydate": false,
+        "myymd": true,
+        "myyear": false,
+        "mymonth": false,
+        "mymonthn": false,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": false,
+        "mytimes": true,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": true,
+        "mypm": false,
+        "x": 270,
+        "y": 320,
+        "wires": [
+            [
+                "3146659d55f933e2"
+            ]
+        ]
+    },
+    {
+        "id": "3146659d55f933e2",
+        "type": "template",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "",
+        "field": "payload.myrawdate",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{myymd}}T{{mytimes}}",
+        "output": "str",
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "1474c4587b3bd11d"
+            ]
+        ]
+    },
+    {
+        "id": "e0ec963913cbf7a9",
+        "type": "ui_worldmap",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "cd81d08b.eebb3",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OpTop",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "true",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,TL",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1260,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "957329c09d0bdc2b",
+        "type": "mysql",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "mydb": "bd1740692d7f9cba",
+        "name": "",
+        "x": 680,
+        "y": 660,
+        "wires": [
+            [
+                "92a3ac8946152f54",
+                "21dd788bfedad5b8",
+                "7bbd561b8a3c4ecb",
+                "50fe2eed633d6489"
+            ]
+        ]
+    },
+    {
+        "id": "a6bb85fc03739d71",
+        "type": "ui_text_input",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "group": "1afe7adfc5318f67",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "call_sign",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 180,
+        "y": 620,
+        "wires": [
+            [
+                "ed53b212f0fd3b9c"
+            ]
+        ]
+    },
+    {
+        "id": "ed53b212f0fd3b9c",
+        "type": "function",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "Look up Data",
+        "func": "msg.topic = \"SELECT * FROM us_ham LEFT JOIN (us_zips) ON (us_ham.zip_code = us_zips.zip) WHERE call_sign = '\" + msg.payload + \"'\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 620,
+        "wires": [
+            [
+                "957329c09d0bdc2b"
+            ]
+        ]
+    },
+    {
+        "id": "92a3ac8946152f54",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "group": "1afe7adfc5318f67",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Name",
+        "format": "{{msg.payload[0].first_name +\" \" + msg.payload[0].last_name}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1230,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "21dd788bfedad5b8",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "group": "1afe7adfc5318f67",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "State",
+        "format": "{{msg.payload[0].state}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1230,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "7bbd561b8a3c4ecb",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "group": "1afe7adfc5318f67",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "County",
+        "format": "{{msg.payload[0].county}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1240,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "50fe2eed633d6489",
+        "type": "function",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "Inject Grid",
+        "func": "var lat = 0.0;\nvar lon = 0.0;\n\nlat = msg.payload[0].latitude;\nlon = msg.payload[0].longitude;\n\n\nmsg.payload[0].grid = to_grid(lat, lon);\n\nreturn msg;\n\n\nfunction to_grid(dec_lat, dec_lon) {\n  var upper = 'ABCDEFGHIJKLMNOPQRSTUVWX';\n  var lower = 'abcdefghijklmnopqrstuvwx';\n\n  var adj_lat = dec_lat + 90.0\n  var adj_lon = dec_lon + 180.0\n\n  var firstLetter = Math.floor(adj_lat / 10);\n  var secondLetter = Math.floor(adj_lon / 20);\n\n  var grid_lat_sq = upper[firstLetter];\n  var grid_lon_sq = upper[secondLetter];\n\n  var grid_lat_field = Math.abs(Math.floor(adj_lat % 10));\n  var grid_lon_field = Math.abs(Math.floor(adj_lon / 2) % 10);\n\n  var adj_lat_remainder = (adj_lat - Math.floor(adj_lat)) * 60;\n  var adj_lon_remainder = ((adj_lon) - Math.floor(adj_lon / 2) * 2) * 60;\n\n  var grid_lat_subsq = lower[Math.floor(adj_lat_remainder / 2.5)];\n  var grid_lon_subsq = lower[Math.floor(adj_lon_remainder / 5)];\n\n  var grid = '' + grid_lon_sq + grid_lat_sq + grid_lon_field + grid_lat_field + grid_lon_subsq + grid_lat_subsq + '';\n\n  return grid;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 520,
+        "wires": [
+            [
+                "fd4e1fdaba212387",
+                "b374f7324ffcf616",
+                "1c04bc0c22478b1a",
+                "3a48a6016169a83c"
+            ]
+        ]
+    },
+    {
+        "id": "fd4e1fdaba212387",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "group": "1afe7adfc5318f67",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Approx Grid",
+        "format": "{{msg.payload[0].grid}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1250,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "4279d3761cbf4100",
+        "type": "change",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload[0].name",
+                "pt": "msg",
+                "to": "payload[0].call_sign",
+                "tot": "msg",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "payload[0].lat",
+                "pt": "msg",
+                "to": "payload[0].latitude",
+                "tot": "msg",
+                "dc": true
+            },
+            {
+                "t": "set",
+                "p": "payload[0].lon",
+                "pt": "msg",
+                "to": "payload[0].longitude",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 520,
+        "wires": [
+            [
+                "e0ec963913cbf7a9"
+            ]
+        ]
+    },
+    {
+        "id": "ded049747c20192e",
+        "type": "ui_button",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "",
+        "group": "cd81d08b.eebb3",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clear Pins",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"command\":{\"clear\":\"foo\"}}",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 1090,
+        "y": 60,
+        "wires": [
+            [
+                "e0ec963913cbf7a9"
+            ]
+        ]
+    },
+    {
+        "id": "b374f7324ffcf616",
+        "type": "ui_button",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "",
+        "group": "1afe7adfc5318f67",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Send to Map",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{payload[0]}",
+        "payloadType": "bin",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 990,
+        "y": 520,
+        "wires": [
+            [
+                "4279d3761cbf4100"
+            ]
+        ]
+    },
+    {
+        "id": "2edb1cf8cbbf9858",
+        "type": "function",
+        "z": "67f4ff1d.729ad8",
+        "name": "Look up Data",
+        "func": "msg.topic = \"SELECT entry, dst_callsign as callsign, grid as MyGrid, dst_grid as TheirGrid, freq, band, SUBSTRING_INDEX(date, 'T', 1) as Date, time  FROM ham_log;\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 980,
+        "wires": [
+            [
+                "594a2480c92dc3f0"
+            ]
+        ]
+    },
+    {
+        "id": "594a2480c92dc3f0",
+        "type": "mysql",
+        "z": "67f4ff1d.729ad8",
+        "mydb": "bd1740692d7f9cba",
+        "name": "",
+        "x": 600,
+        "y": 980,
+        "wires": [
+            [
+                "952851621b1a617f"
+            ]
+        ]
+    },
+    {
+        "id": "952851621b1a617f",
+        "type": "ui_table",
+        "z": "67f4ff1d.729ad8",
+        "group": "5f76bceb7e66e23c",
+        "name": "",
+        "order": 0,
+        "width": "24",
+        "height": "30",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 850,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "228bd3b79949c3ae",
+        "type": "inject",
+        "z": "67f4ff1d.729ad8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 1060,
+        "wires": [
+            [
+                "2edb1cf8cbbf9858"
+            ]
+        ]
+    },
+    {
+        "id": "5a36f4c7fa934aaa",
+        "type": "function",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "Insert Log",
+        "func": "\nvar currentFreq = 0.0;\ncurrentFreq = flow.get(\"opFrequency\");\nvar currentBand = parseBand(currentFreq);\n\nmsg.topic = \"insert into ham_log (src_callsign, grid, dst_callsign, dst_grid,  band, mode, freq, timestamp, date, time) \\\nVALUES (\\\"KM6MZM\\\", \\\"\" + global.get(\"myGrid\") + \"\\\", \\\"\" \n    + flow.get(\"theirCall\") + \"\\\", \\\"\" + flow.get(\"theirGrid\") + \"\\\", \\\"\" + currentBand + \"\\\", \\\"Phone\\\", \\\"\" + currentFreq +\"\\\", CURRENT_TIMESTAMP, CURRENT_DATE, CURRENT_TIMESTAMP);\";\n//msg.topic = \"their Call: \" + flow.get(\"theirCall\") + \" their grid \" + flow.get(\"theirGrid\") + \" freq \" + currentFreq + \" band \"+ currentBand; \n\nconsole.log(typeof currentFreq, currentFreq);\n\n\nreturn msg;\n\nfunction parseBand(freq)\n{\n    var band = \"\"; \n    if (freq >= 1.8 && freq <= 2.0) {\n        band = '160m';\n    }\n    else if (freq >= 3.5 && freq < 4.0) {\n        band = '80m';\n    }\n    else if (freq >= 5.3 && freq <= 5.405) {\n        band = '60m';\n    }\n    else if (freq >= 7 && freq <= 7.3) {\n        band = '40m';\n    }\n    else if (freq >= 10.1 && freq <= 10.150) {\n        band = '30m';\n    }\n    else if (freq >= 14.000 && freq <= 14.350) {\n        band = '20m';\n    }\n    else if (freq >= 18.068 && freq <= 18.168) {\n        band = '17m';\n    }\n    else if (freq >= 21.0 && freq <= 21.450) {\n        band = '15m';\n    }\n    else if (freq >= 24.890 && freq <= 24.990) {\n        band = '12m';\n    }\n    else if (freq >= 28.0 && freq <= 29.7) {\n        band = '10m';\n    }\n    else if (freq >= 50.0 && freq <= 54.0) {\n        band = '6m';\n    }\n    else if (freq >= 144.0 && freq <= 148.0) {\n        band = '2m';\n    }\n    else if (freq >= 219.0 && freq <= 225.0) {\n        band = '1.25m';\n    }\n    else if (freq >= 420.0 && freq <= 450.0) {\n        band = '70cm';\n    }\n    else if (freq >= 902.0 && freq <= 928.0) {\n        band = '33cm';\n    }\n    else if (freq >= 1240.0 && freq <= 1300.0) {\n        band = '23cm';\n    }\n    else {\n        band = String.freq;\n    }\n\n\n    return band;\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 780,
+        "wires": [
+            [
+                "a1e2db89e883eb0c"
+            ]
+        ]
+    },
+    {
+        "id": "ca25a61777876b28",
+        "type": "debug",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "1c04bc0c22478b1a",
+        "type": "ui_button",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "",
+        "group": "1afe7adfc5318f67",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Send To Log",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "log",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 470,
+        "y": 760,
+        "wires": [
+            [
+                "5a36f4c7fa934aaa"
+            ]
+        ]
+    },
+    {
+        "id": "3d6ccaf7e4049cf3",
+        "type": "ui_text",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "group": "cd81d08b.eebb3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Grid",
+        "format": "{{msg.payload.grid}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1250,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "7ebebc9079038f68",
+        "type": "rbe",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload.grid",
+        "topi": "payload.grid",
+        "x": 610,
+        "y": 100,
+        "wires": [
+            [
+                "de06c553507b60ef"
+            ]
+        ]
+    },
+    {
+        "id": "de06c553507b60ef",
+        "type": "change",
+        "z": "67f4ff1d.729ad8",
+        "g": "23e9984a74f632a3",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload.lat",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.lon",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.alt",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.name",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "myGrid",
+                "pt": "global",
+                "to": "payload.grid",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c4ddcc22c2eacca3",
+        "type": "ui_text_input",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "",
+        "label": "Frequency in Mhz",
+        "tooltip": "Frequency in Mhz",
+        "group": "1afe7adfc5318f67",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "opFrequency",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "flow",
+        "x": 490,
+        "y": 840,
+        "wires": [
+            [
+                "32908898b59bdedf"
+            ]
+        ]
+    },
+    {
+        "id": "3a48a6016169a83c",
+        "type": "change",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "theirCall",
+                "pt": "flow",
+                "to": "payload[0].call_sign",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "theirGrid",
+                "pt": "flow",
+                "to": "payload[0].grid",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "state",
+                "pt": "flow",
+                "to": "payload[0].state",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32908898b59bdedf",
+        "type": "change",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "opFrequency",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a1e2db89e883eb0c",
+        "type": "mysql",
+        "z": "67f4ff1d.729ad8",
+        "g": "4106c158edc3d314",
+        "mydb": "bd1740692d7f9cba",
+        "name": "",
+        "x": 980,
+        "y": 780,
+        "wires": [
+            [
+                "2edb1cf8cbbf9858"
+            ]
+        ]
+    }
+]
